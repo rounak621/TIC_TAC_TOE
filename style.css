@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #548687;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+/* Winner Message Above the Game */
+.msg-container {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+    margin: 15px auto; /* Centered Above */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#msg {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    width: 300px;
+    height: 300px;
+}
+
+.box {
+    width: 90px;
+    height: 90px;
+    font-size: 2.5rem;
+    color: #b0413e;
+    background-color: blanchedalmond;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+#reset-btn, #new-btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #191913;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s;
+}
+
+#reset-btn:hover, #new-btn:hover {
+    background-color: #333;
+}
