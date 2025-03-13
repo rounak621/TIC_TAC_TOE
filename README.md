@@ -30,9 +30,6 @@ A simple **Tic-Tac-Toe** game built using **HTML, CSS, and JavaScript**. This pr
 3. Select the branch containing `index.html` and deploy.
 4. Access your game via the provided GitHub Pages URL.
 
-## Screenshots
-![Tic-Tac-Toe Screenshot](screenshot.png) *(Add a screenshot of your game here)*
-
 ## License
 This project is open-source and free to use.
 
